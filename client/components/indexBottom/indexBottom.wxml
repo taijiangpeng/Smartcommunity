@@ -1,0 +1,53 @@
+<view class="business">
+  <view class="business_title">
+    |  商业服务
+  </view>
+  <view class="business_infor">
+    <view class="infor">
+      <view class="il">
+        <p>房屋出售</p>
+        <view class="ilb">
+          <p>
+            租房
+          </p>
+          <p>
+            短租
+          </p>
+        </view>
+      </view>
+      <view class="ir">
+        <image src="/images/index/home1.png"></image>
+      </view>
+    </view>
+    <view class="infor">
+      <view style="margin-right:5rpx" class="il">
+        <p>便民服务</p>
+        <view class="ilb">
+          <p>
+            便利店超市
+          </p>
+          <p>
+            超市
+          </p>
+        </view>
+      </view>
+      <view class="ir">
+        <image src="/images/index/people.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="business_title">
+    |  社区活动
+  </view>
+  <view class="shequ">
+    <view class="sl">
+      <view class="slt">
+        关于xxx社区第1届创新坐谈会的活动安排
+      </view>
+      <view class="slb">
+        2020年03月11日   09:00
+      </view>
+    </view>
+    <image src="../../images/index/shequ.png"></image>
+  </view>
+</view>
