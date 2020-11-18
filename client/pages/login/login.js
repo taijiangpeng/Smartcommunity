@@ -1,4 +1,4 @@
-// pages/index/index.js
+// pages/login/login.js
 Page({
 
   /**
@@ -7,7 +7,9 @@ Page({
   data: {
 
   },
+  getUserInfoAction() {
 
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -26,14 +28,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-      // if(!getApp().globalData.isLogin){
-      //   wx.navigateTo({
-      //     url: '/pages/login/login',
-      //   })
-      // }else{
-      //   console.log('已经登录');
-        
-      // }
+
   },
 
   /**

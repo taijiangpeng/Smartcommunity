@@ -18,6 +18,15 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    getUserInfoAction(info){
 
+    }
+  },
+  lifetimes:{
+    attached:function(){
+      console.log(getApp().globalData.isLogin);
+      
+      
+    }
   }
 })

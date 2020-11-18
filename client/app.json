@@ -3,7 +3,10 @@
     "pages/index/index",
     "pages/property/property",
     "pages/community/community",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/neighbor/neighbor",
+    "pages/login/login",
+    "pages/neighbor/get_more/get_more"
   ],
   "entryPagePath": "pages/index/index",
   "window": {
@@ -16,10 +19,10 @@
     "selectedColor": "#000000",
     "list": [
       {
-      "pagePath": "pages/index/index",
-      "text": "主页",
-      "iconPath": "./images/home.png",
-      "selectedIconPath": "./images/home1.png"
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "./images/home.png",
+        "selectedIconPath": "./images/home1.png"
       },
       {
         "pagePath": "pages/property/property",
@@ -39,8 +42,7 @@
         "iconPath": "./images/mine.png",
         "selectedIconPath": "./images/mine1.png"
       }
-
-  ]
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

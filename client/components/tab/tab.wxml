@@ -1,17 +1,18 @@
+<!-- <button wx:if="{{!isLogin}}" open-type="getUserInfo" bindgetuserinfo="getUserInfoAction" >登录</button> -->
 <view class="tab">
-    <navigator class="tab_wrap" url="/pages/mine/mine"  open-type="switchTab">
+    <view class="tab_wrap" >  
       <image src="../../images/index/tab1.svg"></image>
       <view>物业缴费</view>
-    </navigator>
-    <navigator class="tab_wrap" url="/pages/mine/mine"  open-type="switchTab">
+    </view>
+    <view class="tab_wrap">
       <image src="../../images/index/tab2.svg"></image>
       <view>智慧停车</view>
-    </navigator>
+    </view>
     <navigator class="tab_wrap" url="/pages/mine/mine"  open-type="switchTab">
       <image src="../../images/index/tab3.svg"></image>
       <view>社区医疗</view>
     </navigator>
-    <navigator class="tab_wrap" url="/pages/mine/mine"  open-type="switchTab">
+    <navigator class="tab_wrap" url="/pages/neighbor/neighbor">
       <image src="../../images/index/tab4.svg"></image>
       <view>邻里互动</view>
     </navigator>

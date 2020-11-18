@@ -1,0 +1,56 @@
+/* pages/neighbor/neighbor.wxss */
+.top{
+  width: 100%;
+  height: 100rpx;
+  background-color: #009900;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.top :nth-child(1),.top :nth-child(2),.top :nth-child(3){
+  color: #fff;
+}
+.top image{
+  width: 70rpx;
+  height: 70rpx;
+}
+.send{
+  margin-top: 100rpx;
+  width: 100%;
+  min-height: 500rpx;
+  background-color: #fff;
+  position: relative;
+}
+.send textarea{
+  color: #333;
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+}
+.imgs{
+  margin-top: 200rpx;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20rpx;
+}
+.img_wrap image{
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 20rpx;
+}
+.add{
+  width: 160rpx;
+  height: 160rpx;
+  border: 1px solid #ccc;
+  margin-bottom: 20rpx;
+  font-size: 100rpx;
+  line-height: 160rpx;
+  text-align: center;
+}

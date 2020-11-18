@@ -1,0 +1,11 @@
+{
+  "usingComponents": {},
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "邻里互动",
+    "backgroundColor": "#009900",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}
