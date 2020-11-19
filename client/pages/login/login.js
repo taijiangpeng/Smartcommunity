@@ -7,9 +7,39 @@ Page({
   data: {
 
   },
-  getUserInfoAction() {
-
+  getUserInfoAction(info) {
+    console.log(info);
+    this.login()
   },
+  login() {
+    //登录:第一步，获得code
+    wx.login({
+      success({
+        code
+      }) {
+        console.log(code);
+        // 登录第二步：将code发送给服务器
+        wx.request({
+          url: 'http://localhost:3000/api/auth/send_code',
+          method: 'POST',
+          data: {
+            code
+          },
+          // 登录第六步：获得登录态
+          success(res) {
+            const token = res.data.token;
+
+            // 登录第七步：保存登录态
+            wx.setStorageSync('TOKEN', token);
+          },
+          fail(error) {
+            console.log(error);
+          }
+        })
+      }
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
