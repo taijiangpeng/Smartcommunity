@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/property/property",
+    "pages/community/community",
+    "pages/mine/mine",
+    "pages/community/pay/pay",
+    "pages/community/repair/repair"
+  ],
+  "entryPagePath": "pages/community/pay/pay",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#009900",
+    "navigationBarTitleText": "智慧社区",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "./images/home.png",
+        "selectedIconPath": "./images/home1.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "物业",
+        "iconPath": "./images/wuye.png",
+        "selectedIconPath": "./images/wuye1.png"
+      },
+      {
+        "pagePath": "pages/property/property",
+        "text": "社区",
+        "iconPath": "./images/shequ.png",
+        "selectedIconPath": "./images/shequ1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./images/mine.png",
+        "selectedIconPath": "./images/mine1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

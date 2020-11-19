@@ -1,0 +1,11 @@
+<!--pages/index/index.wxml-->
+<swiper class="banner">
+  <swiper-item>
+    <image src="../../images/index/banner1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../images/index/banner2.jpg"></image>
+  </swiper-item>
+</swiper>
+<Tab />
+<Bottom />

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Tab" : "/components/tab/tab",
+    "Bottom" : "/components/indexBottom/indexBottom"
+  }
+}

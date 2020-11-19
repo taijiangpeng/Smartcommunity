@@ -1,0 +1,68 @@
+.business{
+  width: 100%;
+  height: calc(100% - 590rpx);
+  background-color: #fff;
+  margin-top: 10rpx;
+}
+.business_title{
+  font-size: 24rpx;
+  font-weight: bold;
+  margin-left: 10rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.business_infor{
+  display: flex;
+}
+.business_infor .infor{
+  width: 49%;
+  height: 180rpx;
+  border: 2rpx solid #F2F2F2;
+}
+.infor{
+  display: flex;
+  box-sizing: border-box;
+  padding: 20rpx;
+  justify-content: center;
+  align-items: center;
+}
+.ir image{
+  width: 170rpx;
+  height: 80rpx;
+}
+.il p{
+  font-size: 24rpx;
+  font-weight: bold;
+}
+.il{
+  margin-right: 30rpx;
+}
+.il .ilb p{
+  font-size: 20rpx;
+  font-weight: normal;
+}
+.shequ image{
+  width: 240rpx;
+  height: 150rpx;
+}
+.shequ{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30rpx;
+}
+.shequ .sl{
+  width: 400rpx;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 24rpx;
+  margin-right: 40rpx;
+}
+.slt{
+  font-weight: bold;
+}
+.slb{
+  color: #666;
+}
