@@ -8,10 +8,8 @@ Page({
 
   },
   getUserInfoAction(info) {
-    console.log(info);
-    this.login()
-  },
-  login() {
+    console.log(JSON.stringify(info.detail.userInfo));
+    wx.setStorageSync('user_info', info.detail.userInfo);
     //登录:第一步，获得code
     wx.login({
       success({
@@ -31,6 +29,10 @@ Page({
 
             // 登录第七步：保存登录态
             wx.setStorageSync('TOKEN', token);
+            getApp().globalData.isLogin = true;
+            wx.switchTab({
+              url: '/pages/index/index',
+            })
           },
           fail(error) {
             console.log(error);
@@ -39,6 +41,7 @@ Page({
       }
     })
   },
+
 
   /**
    * 生命周期函数--监听页面加载

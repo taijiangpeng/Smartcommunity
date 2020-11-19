@@ -1,0 +1,19 @@
+<view class="box">
+  <text class="box_day">今日产生费用（元）</text> 
+  <text class="price">{{price}}</text> 
+  <text class="box_month">本月累计费用（元）</text> 
+  <text class="cumulative">{{Cumulative}}</text> 
+</view>
+
+<view class="const_list">
+  <view class="item" wx:for="{{costList}}" wx:key="index">
+    <view class="left">
+      <image class="img1" src="{{item.url}}"></image>
+      <text class="text">{{ item.text }}</text>
+    </view>
+    <view class="right">
+      <text class="right_price" wx:if="{{item.price !==''}}">待缴{{item.price}}元</text>
+      <image class="img2" src="{{item.nextImg}}"></image>
+    </view>
+  </view>
+</view>

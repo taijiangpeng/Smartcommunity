@@ -14,8 +14,8 @@ router.post("/send_code", async (ctx) => {
 
 //wxf19d2d2effb7245f
   //650576e558c207d7db1e168c614ea2bb
-  const appid = "wx56c480b7c69a67b1";
-  const secret = "a8492e4961c36a6d97d307314b5f31a9";
+  const appid = "wxf19d2d2effb7245f";
+  const secret = "650576e558c207d7db1e168c614ea2bb";
   const code = ctx.request.body.code;
 
   const result = await axios.get(
@@ -52,6 +52,7 @@ router.post("/send_code", async (ctx) => {
 });
 
 router.get('/check_login', async(ctx)=>{
+    console.log(111);
   ctx.verifyParams({
     token: 'string'
   });

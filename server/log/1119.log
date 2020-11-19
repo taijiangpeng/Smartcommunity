@@ -1,0 +1,73 @@
+2020-11-19T08:41:24.458+0800 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2020-11-19T08:41:25.698+0800 I  CONTROL  [initandlisten] MongoDB starting : pid=17504 port=27017 dbpath=D:\code\Smartcommunity\server\db 64-bit host=LAPTOP-G41PRUG2
+2020-11-19T08:41:25.698+0800 I  CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2020-11-19T08:41:25.698+0800 I  CONTROL  [initandlisten] db version v4.2.2
+2020-11-19T08:41:25.698+0800 I  CONTROL  [initandlisten] git version: a0bbbff6ada159e19298d37946ac8dc4b497eadf
+2020-11-19T08:41:25.698+0800 I  CONTROL  [initandlisten] allocator: tcmalloc
+2020-11-19T08:41:25.698+0800 I  CONTROL  [initandlisten] modules: none
+2020-11-19T08:41:25.699+0800 I  CONTROL  [initandlisten] build environment:
+2020-11-19T08:41:25.699+0800 I  CONTROL  [initandlisten]     distmod: 2012plus
+2020-11-19T08:41:25.699+0800 I  CONTROL  [initandlisten]     distarch: x86_64
+2020-11-19T08:41:25.699+0800 I  CONTROL  [initandlisten]     target_arch: x86_64
+2020-11-19T08:41:25.699+0800 I  CONTROL  [initandlisten] options: { storage: { dbPath: "D:\code\Smartcommunity\server\db" }, systemLog: { destination: "file", path: "D:\code\Smartcommunity\server\log\1119.log" } }
+2020-11-19T08:41:25.767+0800 I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3479M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+2020-11-19T08:41:26.177+0800 I  STORAGE  [initandlisten] WiredTiger message [1605746486:177206][17504:140716026191520], txn-recover: Set global recovery timestamp: (0,0)
+2020-11-19T08:41:26.321+0800 I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2020-11-19T08:41:26.723+0800 I  STORAGE  [initandlisten] Timestamp monitor starting
+2020-11-19T08:41:26.863+0800 I  CONTROL  [initandlisten] 
+2020-11-19T08:41:26.863+0800 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2020-11-19T08:41:26.864+0800 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2020-11-19T08:41:26.864+0800 I  CONTROL  [initandlisten] 
+2020-11-19T08:41:26.864+0800 I  CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2020-11-19T08:41:26.864+0800 I  CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2020-11-19T08:41:26.864+0800 I  CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2020-11-19T08:41:26.864+0800 I  CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2020-11-19T08:41:26.864+0800 I  CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2020-11-19T08:41:26.864+0800 I  CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2020-11-19T08:41:26.893+0800 I  CONTROL  [initandlisten] 
+2020-11-19T08:41:26.959+0800 I  STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: 57e8fc93-d44e-4328-ab29-a2c8af840153 and options: { uuid: UUID("57e8fc93-d44e-4328-ab29-a2c8af840153") }
+2020-11-19T08:41:27.280+0800 I  INDEX    [initandlisten] index build: done building index _id_ on ns admin.system.version
+2020-11-19T08:41:27.306+0800 I  SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2020-11-19T08:41:27.307+0800 I  COMMAND  [initandlisten] setting featureCompatibilityVersion to 4.2
+2020-11-19T08:41:27.308+0800 I  SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2020-11-19T08:41:27.320+0800 I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+2020-11-19T08:41:27.370+0800 I  SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2020-11-19T08:41:27.370+0800 I  STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: 5b118a67-a0a9-4d25-9bd9-cf8a470fb24e and options: { capped: true, size: 10485760 }
+2020-11-19T08:41:27.492+0800 I  INDEX    [initandlisten] index build: done building index _id_ on ns local.startup_log
+2020-11-19T08:41:27.492+0800 I  SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2020-11-19T08:41:27.816+0800 I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/code/Smartcommunity/server/db/diagnostic.data'
+2020-11-19T08:41:27.852+0800 I  SHARDING [LogicalSessionCacheRefresh] Marking collection config.system.sessions as collection version: <unsharded>
+2020-11-19T08:41:27.853+0800 I  NETWORK  [initandlisten] Listening on 127.0.0.1
+2020-11-19T08:41:27.853+0800 I  NETWORK  [initandlisten] waiting for connections on port 27017
+2020-11-19T08:41:27.986+0800 I  COMMAND  [LogicalSessionCacheReap] command config.system.sessions command: listIndexes { listIndexes: "system.sessions", cursor: {}, $db: "config" } numYields:0 ok:0 errMsg:"ns does not exist: config.system.sessions" errName:NamespaceNotFound errCode:26 reslen:134 locks:{ ReplicationStateTransition: { acquireCount: { w: 2 } }, Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_msg 127ms
+2020-11-19T08:41:27.986+0800 I  CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2020-11-19T08:41:27.986+0800 I  COMMAND  [LogicalSessionCacheRefresh] command config.system.sessions command: listIndexes { listIndexes: "system.sessions", cursor: {}, $db: "config" } numYields:0 ok:0 errMsg:"ns does not exist: config.system.sessions" errName:NamespaceNotFound errCode:26 reslen:134 locks:{ ReplicationStateTransition: { acquireCount: { w: 2 } }, Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_msg 127ms
+2020-11-19T08:41:27.996+0800 I  STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with provided UUID: bb737e0f-b721-4ade-8914-f7e0f45dadbb and options: { uuid: UUID("bb737e0f-b721-4ade-8914-f7e0f45dadbb") }
+2020-11-19T08:41:28.026+0800 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2020-11-19T08:41:28.322+0800 I  INDEX    [LogicalSessionCacheRefresh] index build: done building index _id_ on ns config.system.sessions
+2020-11-19T08:41:28.677+0800 I  INDEX    [LogicalSessionCacheRefresh] index build: starting on config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 } using method: Hybrid
+2020-11-19T08:41:28.677+0800 I  INDEX    [LogicalSessionCacheRefresh] build may temporarily use up to 500 megabytes of RAM
+2020-11-19T08:41:28.697+0800 I  INDEX    [LogicalSessionCacheRefresh] index build: collection scan done. scanned 0 total records in 0 seconds
+2020-11-19T08:41:28.699+0800 I  INDEX    [LogicalSessionCacheRefresh] index build: inserted 0 keys from external sorter into index in 0 seconds
+2020-11-19T08:41:28.748+0800 I  INDEX    [LogicalSessionCacheRefresh] index build: done building index lsidTTLIndex on ns config.system.sessions
+2020-11-19T08:41:28.776+0800 I  COMMAND  [LogicalSessionCacheRefresh] command config.system.sessions command: createIndexes { createIndexes: "system.sessions", indexes: [ { key: { lastUse: 1 }, name: "lsidTTLIndex", expireAfterSeconds: 1800 } ], $db: "config" } numYields:0 reslen:114 locks:{ ParallelBatchWriterMode: { acquireCount: { r: 2 } }, ReplicationStateTransition: { acquireCount: { w: 3 } }, Global: { acquireCount: { r: 1, w: 2 } }, Database: { acquireCount: { r: 1, w: 2, W: 1 } }, Collection: { acquireCount: { r: 4, w: 1, R: 1, W: 2 } }, Mutex: { acquireCount: { r: 3 } } } flowControl:{ acquireCount: 1 } storage:{} protocol:op_msg 789ms
+2020-11-19T08:46:27.853+0800 I  SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2020-11-19T21:33:09.056+0800 I  CONTROL  [thread1] CTRL_CLOSE_EVENT signal
+2020-11-19T21:33:09.064+0800 I  CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2020-11-19T21:33:09.267+0800 I  NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2020-11-19T21:33:09.279+0800 I  -        [consoleTerminate] Stopping further Flow Control ticket acquisitions.
+2020-11-19T21:33:09.320+0800 I  CONTROL  [consoleTerminate] Shutting down free monitoring
+2020-11-19T21:33:09.320+0800 I  FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2020-11-19T21:33:09.340+0800 I  STORAGE  [consoleTerminate] Deregistering all the collections
+2020-11-19T21:33:09.384+0800 I  STORAGE  [TimestampMonitor] Timestamp monitor is stopping due to: interrupted at shutdown
+2020-11-19T21:33:09.425+0800 I  STORAGE  [consoleTerminate] Timestamp monitor shutting down
+2020-11-19T21:33:09.437+0800 I  STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2020-11-19T21:33:09.437+0800 I  STORAGE  [consoleTerminate] Shutting down session sweeper thread
+2020-11-19T21:33:09.466+0800 I  STORAGE  [consoleTerminate] Finished shutting down session sweeper thread
+2020-11-19T21:33:09.466+0800 I  STORAGE  [consoleTerminate] Shutting down journal flusher thread
+2020-11-19T21:33:09.508+0800 I  STORAGE  [consoleTerminate] Finished shutting down journal flusher thread
+2020-11-19T21:33:09.508+0800 I  STORAGE  [consoleTerminate] Shutting down checkpoint thread
+2020-11-19T21:33:09.508+0800 I  STORAGE  [consoleTerminate] Finished shutting down checkpoint thread
+2020-11-19T21:33:10.139+0800 I  STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2020-11-19T21:33:10.139+0800 I  CONTROL  [consoleTerminate] now exiting
+2020-11-19T21:33:10.139+0800 I  CONTROL  [consoleTerminate] shutting down with code:12

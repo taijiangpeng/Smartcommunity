@@ -1,13 +1,12 @@
-<!-- <button wx:if="{{!isLogin}}" open-type="getUserInfo" bindgetuserinfo="getUserInfoAction" >登录</button> -->
 <view class="tab">
-    <view class="tab_wrap" >  
+    <navigator class="tab_wrap" url="/pages/community/community"  open-type="switchTab">
       <image src="../../images/index/tab1.svg"></image>
       <view>物业缴费</view>
-    </view>
-    <view class="tab_wrap">
+    </navigator>
+    <navigator class="tab_wrap" url="/pages/mine/mine"  open-type="switchTab">
       <image src="../../images/index/tab2.svg"></image>
       <view>智慧停车</view>
-    </view>
+    </navigator>
     <navigator class="tab_wrap" url="/pages/mine/mine"  open-type="switchTab">
       <image src="../../images/index/tab3.svg"></image>
       <view>社区医疗</view>

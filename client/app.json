@@ -6,7 +6,9 @@
     "pages/mine/mine",
     "pages/neighbor/neighbor",
     "pages/login/login",
-    "pages/neighbor/get_more/get_more"
+    "pages/neighbor/get_more/get_more",
+    "pages/community/pay/pay",
+    "pages/community/repair/repair"
   ],
   "entryPagePath": "pages/index/index",
   "window": {
@@ -25,16 +27,16 @@
         "selectedIconPath": "./images/home1.png"
       },
       {
+        "pagePath": "pages/community/community",
+        "text": "物业",
+        "iconPath": "./images/wuye.png",
+        "selectedIconPath": "./images/wuye1.png"
+      },
+      {
         "pagePath": "pages/property/property",
         "text": "社区",
         "iconPath": "./images/shequ.png",
         "selectedIconPath": "./images/shequ1.png"
-      },
-      {
-        "pagePath": "pages/community/community",
-        "text": "社区",
-        "iconPath": "./images/wuye.png",
-        "selectedIconPath": "./images/wuye1.png"
       },
       {
         "pagePath": "pages/mine/mine",

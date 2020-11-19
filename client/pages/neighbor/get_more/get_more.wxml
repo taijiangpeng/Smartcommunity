@@ -2,10 +2,10 @@
   <view class="top">
     <view bindtap="{{back}}">返回</view>
     <view>邻里互动</view>
-    <view>发送</view>
+    <view bindtap="send">发送</view>
   </view>
   <view class="send">
-    <textarea placeholder="这一刻的您最想说什么呢..." name="" id="" cols="30" rows="10">
+    <textarea value="{{text}}" bindinput="bdinput" placeholder="这一刻的您最想说什么呢..." name="" id="text" cols="30" rows="10">
 
     </textarea>
     <view class="imgs">

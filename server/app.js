@@ -4,6 +4,7 @@ const parameter = require("koa-parameter");
 const bodyparser = require("koa-bodyparser");
 const auth = require("./routes/auth");
 const user = require("./routes/user");
+const pyq = require("./routes/app/pyq_route");
 
 const app = new Koa();
 
@@ -25,5 +26,5 @@ parameter(app);
 // 使用路由
 app.use(auth.routes()).use(auth.allowedMethods());
 app.use(user.routes()).use(user.allowedMethods());
-
+app.use(pyq.routes()).use(pyq.allowedMethods());
 module.exports = app;

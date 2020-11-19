@@ -1,0 +1,19 @@
+<view class="top">
+  <view class="top_left">
+    <image src="../../../images/community/u1912.svg"></image>
+  </view>
+  <view class="top_right">
+    <text class="text1">公共报修</text>
+    <text class="text2">请您监督小区公共区域设施设备的运行情况，发现问题请及时反馈给我们</text>
+  </view>
+</view>
+
+<view class="bottom">
+  <view class="top_left">
+    <image src="../../../images/community/u1919.svg"></image>
+  </view>
+  <view class="top_right">
+    <text class="text1">个人报修</text>
+    <text class="text2">您的专属报修专家，全程为您提供服务</text>
+  </view>
+</view>

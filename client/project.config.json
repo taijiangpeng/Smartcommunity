@@ -4,7 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": false,
     "postcss": true,
@@ -60,8 +60,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/neighbor/get_more/get_more",
-          "pathName": "pages/neighbor/get_more/get_more",
+          "name": "pages/neighbor/neighbor",
+          "pathName": "pages/neighbor/neighbor",
           "query": "",
           "scene": null
         }

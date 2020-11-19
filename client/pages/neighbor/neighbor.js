@@ -18,7 +18,7 @@ Page({
         ],
         time : '2020/08/09 20:03',
         like : 8,
-        comment : 10
+
       },
       {
         url : "/images/neighbor/back.png",
@@ -32,7 +32,7 @@ Page({
         ],
         time : '2020/08/09 20:03',
         like : 8,
-        comment : 10
+
       },
       {
         url : "/images/neighbor/back.png",
@@ -46,11 +46,35 @@ Page({
         ],
         time : '2020/08/09 20:03',
         like : 8,
-        comment : 10
+
       },
     ]
   },
-
+  onShow(){
+    //进入页面时，加载所有朋友圈内容
+    const token = wx.getStorageSync('TOKEN');
+    console.log(token);
+    var that = this;
+    wx.request({
+      url: 'http://localhost:3000/api/app/pyq_infor',
+      method: 'GET',
+      data: {
+        token
+      },
+      success : (result)=>{
+        console.log(result);
+        result.data.infors.map((item)=>{
+          item.imgs = JSON.parse(item.imgs);
+          item.time = "" + (new Date(Number(item.time)).getMonth() + 1) + '月' + new Date(Number(item.time)).getDate() + "日" + new Date(Number(item.time)).getHours() + ":" + new Date(Number(item.time)).getMinutes();
+        })
+        that.setData({
+          article : result.data.infors
+        })
+        console.log(this.data.article);
+        
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -68,9 +92,6 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
-
-  },
 
   /**
    * 生命周期函数--监听页面隐藏
