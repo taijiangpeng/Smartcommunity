@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+<<<<<<< HEAD
     contentlist:[
       { imgpath:'../../images/community/u1402.svg', text:'缴费'},
       { imgpath:'../../images/community/u1406.svg', text:'车位'},
@@ -27,6 +28,9 @@ Page({
         url: '../community/repair/repair',
       })
     }
+=======
+
+>>>>>>> 83949a422855a17c4d748af5604d897b8a6609ca
   },
 
   /**

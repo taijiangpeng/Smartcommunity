@@ -4,10 +4,18 @@
     "pages/property/property",
     "pages/community/community",
     "pages/mine/mine",
+<<<<<<< HEAD
     "pages/community/pay/pay",
     "pages/community/repair/repair"
   ],
   "entryPagePath": "pages/community/pay/pay",
+=======
+    "pages/neighbor/neighbor",
+    "pages/login/login",
+    "pages/neighbor/get_more/get_more"
+  ],
+  "entryPagePath": "pages/index/index",
+>>>>>>> 83949a422855a17c4d748af5604d897b8a6609ca
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#009900",
@@ -24,18 +32,30 @@
         "selectedIconPath": "./images/home1.png"
       },
       {
+<<<<<<< HEAD
         "pagePath": "pages/community/community",
         "text": "物业",
         "iconPath": "./images/wuye.png",
         "selectedIconPath": "./images/wuye1.png"
       },
       {
+=======
+>>>>>>> 83949a422855a17c4d748af5604d897b8a6609ca
         "pagePath": "pages/property/property",
         "text": "社区",
         "iconPath": "./images/shequ.png",
         "selectedIconPath": "./images/shequ1.png"
       },
       {
+<<<<<<< HEAD
+=======
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "./images/wuye.png",
+        "selectedIconPath": "./images/wuye1.png"
+      },
+      {
+>>>>>>> 83949a422855a17c4d748af5604d897b8a6609ca
         "pagePath": "pages/mine/mine",
         "text": "我的",
         "iconPath": "./images/mine.png",

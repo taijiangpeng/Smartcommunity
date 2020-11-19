@@ -38,7 +38,11 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
+<<<<<<< HEAD
   "appid": "wx4a9402669b2d8a27",
+=======
+  "appid": "wxf19d2d2effb7245f",
+>>>>>>> 83949a422855a17c4d748af5604d897b8a6609ca
   "projectname": "client",
   "debugOptions": {
     "hidedInDevtools": []
@@ -48,23 +52,41 @@
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
+<<<<<<< HEAD
     "search": {
       "list": []
     },
     "conversation": {
+=======
+    "plugin": {
+>>>>>>> 83949a422855a17c4d748af5604d897b8a6609ca
       "list": []
     },
     "game": {
       "list": []
     },
+<<<<<<< HEAD
     "plugin": {
       "list": []
     },
+=======
+>>>>>>> 83949a422855a17c4d748af5604d897b8a6609ca
     "gamePlugin": {
       "list": []
     },
     "miniprogram": {
+<<<<<<< HEAD
       "list": []
+=======
+      "list": [
+        {
+          "name": "pages/neighbor/get_more/get_more",
+          "pathName": "pages/neighbor/get_more/get_more",
+          "query": "",
+          "scene": null
+        }
+      ]
+>>>>>>> 83949a422855a17c4d748af5604d897b8a6609ca
     }
   }
 }

@@ -18,6 +18,19 @@ Component({
    * 组件的方法列表
    */
   methods: {
+<<<<<<< HEAD
 
+=======
+    getUserInfoAction(info){
+
+    }
+  },
+  lifetimes:{
+    attached:function(){
+      console.log(getApp().globalData.isLogin);
+      
+      
+    }
+>>>>>>> 83949a422855a17c4d748af5604d897b8a6609ca
   }
 })

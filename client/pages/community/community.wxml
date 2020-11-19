@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 <view class="content_list">
   <view wx:for="{{contentlist}}" wx:key="index" class="item" bindtap="changeaction" data-index="{{index}}">
     <image src="{{item.imgpath}}"></image>
     <text>{{item.text}}</text>
   </view>
 </view>
+=======
+<!--pages/community/community.wxml-->
+<text>pages/community/community.wxml</text>
+>>>>>>> 83949a422855a17c4d748af5604d897b8a6609ca

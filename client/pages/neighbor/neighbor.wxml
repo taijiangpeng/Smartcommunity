@@ -1,0 +1,43 @@
+<!--pages/neighbor/neighbor.wxml-->
+<view class="wrap">
+  <view class="top">
+    <view bindtap="{{back}}">返回</view>
+    <view>邻里互动</view>
+    <navigator url="/pages/neighbor/get_more/get_more">
+      <image src="/images/neighbor/camera.png"></image>
+    </navigator>
+  </view>
+  <scroll-view class="scroll_wrap" scroll-y="true">
+    <view class="back">
+    <image src="/images/neighbor/back.png"></image>
+    <open-data class="touxiang" type="userAvatarUrl"></open-data>
+  </view>
+    <view class="infor">
+    <view wx:for="{{article}}" wx:for-item="item1"  wx:for-index="index1" wx:key="index1" class="one">
+      <image class="left" src="{{item1.url}}"></image>
+      <view class="right">
+        <view>
+          {{item1.name}}
+        </view>
+        <view>
+          {{item1.text}}
+        </view>
+        <view class="img_wrap">
+          <image wx:for="{{item1.imgs}}" wx:key="item2" wx:for-item="item2" src="{{item2}}"  ></image>
+        </view>
+        <view class="rb">
+          <view class="rbl">
+            {{item1.time}}
+          </view>
+          <view class="rbr">
+            <image src="/images/neighbor/like.png"></image>
+            <view class="like_num">{{item1.like}}</view>
+            <image src="/images/neighbor/comment.png"></image>
+            <image src="/images/neighbor/zhuanfa.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  </scroll-view>
+</view>

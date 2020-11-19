@@ -1,0 +1,19 @@
+<view class="wrap">
+  <view class="top">
+    <view bindtap="{{back}}">返回</view>
+    <view>邻里互动</view>
+    <view>发送</view>
+  </view>
+  <view class="send">
+    <textarea placeholder="这一刻的您最想说什么呢..." name="" id="" cols="30" rows="10">
+
+    </textarea>
+    <view class="imgs">
+      <view class="img_wrap">
+        <image wx:key="index" wx:for="{{imgs}}" src="{{item}}"></image>
+      </view>
+      <view bindtap="getmore" class="add">+</view>
+    </view>
+  </view>
+</view>
+
